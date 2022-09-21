@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from 'prop-types';
+
 
 const Card = (props) => {
     return (
@@ -24,6 +26,10 @@ const Card = (props) => {
 
 Card.defaultProps = {
     cardTitle: "Default Text",
+}
+
+Card.propTypes = {
+    cardText : PropTypes.string,
 }
 
 // Propların türlerini belirlemeye yardımcı olur.
