@@ -28,8 +28,9 @@ Card.defaultProps = {
     cardTitle: "Default Text",
 }
 
+// Proptypes özelliklerini default bir şekilde belirtebiliriz.
 Card.propTypes = {
-    cardText : PropTypes.string,
+    cardText : PropTypes.string
 }
 
 // Propların türlerini belirlemeye yardımcı olur.

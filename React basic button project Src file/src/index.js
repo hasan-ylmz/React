@@ -5,7 +5,6 @@ import Collapse  from "./components/Collapse";
 import PropTypes from 'prop-types'; 
 
 const App = () => {
-
     return (
         <div id="mainDiv">
             <div className="container">
@@ -13,7 +12,7 @@ const App = () => {
                     <div className="card-group w-100">
                     
                         <div className="col">
-                        <Collapse href="collapseExample1">
+                            <Collapse href="collapseExample1">
                                 <Card
                                     cardTitle="Nature 1"
                                     ımage="https://picsum.photos/id/1000/200/300"

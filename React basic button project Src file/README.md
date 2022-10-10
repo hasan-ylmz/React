@@ -1,0 +1,1 @@
+I making first react project . I learning react and react fundamentals .  My project goals doing react exercises. 
